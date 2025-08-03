@@ -44,7 +44,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold text-primary mb-4 tracking-wider uppercase">
+            <h3 className="text-lg font-semibold text-text-light mb-4 tracking-wider uppercase">
               Navegação
             </h3>
             <ul className="space-y-3">
@@ -62,7 +62,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold text-primary mb-4 tracking-wider uppercase">
+            <h3 className="text-lg font-semibold text-text-light mb-4 tracking-wider uppercase">
               Conecte-se
             </h3>
             <div className="flex space-x-4">
@@ -78,7 +78,7 @@ export default function Footer() {
               ))}
             </div>
             <div className="mt-6">
-              <p className="font-semibold text-primary">Contato Direto</p>
+              <p className="font-semibold text-text-light">Contato Direto</p>
               <a
                 href="tel:+5544991040774"
                 className="block text-gray-400 hover:text-secondary"

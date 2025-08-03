@@ -78,7 +78,7 @@ export default function Services() {
               className="flex flex-col bg-primary p-8 rounded-2xl shadow-lg hover:shadow-strong transition-shadow duration-300"
               variants={cardVariants}
             >
-              <div className="flex-shrink-0 bg-secondary text-primary w-16 h-16 flex items-center justify-center rounded-full mb-6">
+              <div className="flex-shrink-0 bg-secondary text-text-light w-16 h-16 flex items-center justify-center rounded-full mb-6">
                 <service.icon className="w-8 h-8" />
               </div>
               <div className="flex-grow">

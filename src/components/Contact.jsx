@@ -89,7 +89,7 @@ export default function Contact() {
                   href={item.href}
                   className="flex items-center gap-4 group"
                 >
-                  <div className="bg-secondary text-primary p-4 rounded-full group-hover:bg-accent transition-colors duration-300">
+                  <div className="bg-secondary text-text-light p-4 rounded-full group-hover:bg-accent transition-colors duration-300">
                     <item.icon size={24} />
                   </div>
                   <span className="text-lg text-gray-700 group-hover:text-accent transition-colors duration-300">
@@ -163,7 +163,7 @@ export default function Contact() {
                 <button
                   type="submit"
                   disabled={status === 'submitting'}
-                  className="w-full flex items-center justify-center bg-secondary text-primary font-bold py-4 px-6 rounded-lg hover:bg-accent transition-colors duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-full flex items-center justify-center bg-secondary text-text-light font-bold py-4 px-6 rounded-lg hover:bg-accent transition-colors duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   {status === 'submitting' ? (
                     <>

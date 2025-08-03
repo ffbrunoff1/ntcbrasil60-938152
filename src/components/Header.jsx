@@ -27,11 +27,11 @@ export default function Header() {
 
   const headerVariants = {
     initial: {
-      backgroundColor: 'rgba(255, 255, 255, 0)',
+      backgroundColor: 'rgba(235, 244, 250, 0)',
       color: '#FFFFFF',
     },
     scrolled: {
-      backgroundColor: 'rgba(255, 255, 255, 1)',
+      backgroundColor: 'rgba(235, 244, 250, 1)',
       color: '#2A648A',
       boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
     },
@@ -79,7 +79,7 @@ export default function Header() {
 
         <a
           href="#contact"
-          className={`hidden md:inline-block px-6 py-3 rounded-lg font-bold transition-all duration-300 ${scrolled ? 'bg-secondary text-primary hover:bg-accent' : 'bg-primary text-secondary hover:bg-opacity-80'}`}
+          className={`hidden md:inline-block px-6 py-3 rounded-lg font-bold transition-all duration-300 ${scrolled ? 'bg-secondary text-text-light hover:bg-accent' : 'bg-primary text-secondary hover:bg-opacity-80'}`}
         >
           Fale Conosco
         </a>
@@ -116,7 +116,7 @@ export default function Header() {
                 href="#contact"
                 onClick={toggleMenu}
                 variants={mobileLinkVariant}
-                className="bg-secondary text-primary px-8 py-3 rounded-lg font-bold"
+                className="bg-secondary text-text-light px-8 py-3 rounded-lg font-bold"
               >
                 Fale Conosco
               </motion.a>

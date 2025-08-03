@@ -41,7 +41,7 @@ export default function Hero() {
 
       <div className="container mx-auto px-6 z-10">
         <motion.div
-          className="max-w-4xl text-left text-primary"
+          className="max-w-4xl text-left text-text-light"
           variants={containerVariants}
           initial="hidden"
           animate="visible"
@@ -60,7 +60,7 @@ export default function Hero() {
           >
             Transformando Espaços,
             <br />
-            <span className="text-primary opacity-80">Construindo Sonhos.</span>
+            <span className="text-text-light opacity-80">Construindo Sonhos.</span>
           </motion.h1>
 
           <motion.p
