@@ -5,8 +5,8 @@ export default {
     extend: {
       colors: {
         primary: '#FFFFFF',
-        secondary: '#56A9E0', // Logo Blue
-        accent: '#2A648A', // Darker Blue for contrast
+        secondary: '#2A648A', // Dark Blue
+        accent: '#56A9E0', // Light Blue for highlights
         'text-light': '#FFFFFF',
         'text-dark': '#0D2436', // Dark, deep blue for text
       },
